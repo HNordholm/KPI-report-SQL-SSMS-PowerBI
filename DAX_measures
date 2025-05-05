@@ -1,0 +1,21 @@
+
+Total sales = 
+CALCULATE(
+    SUM(CustomerSQLtbl[Total_sales]),
+    NOT(ISBLANK(CustomerSQLtbl[Last_purchase])))
+
+Total quantity = 
+SUM(CustomerSQLtbl[Total_quantity])
+
+Total orders = SUM(
+    CustomerSQLtbl[Total_orders])
+
+  Spending category = 
+SWITCH(
+    TRUE(),
+    [Total sales] > 10000, "High", 
+    [Total sales] > 5000, "Medium",
+    "Low")
+
+  AOV = DIVIDE(
+    [Total sales],[Total orders],0)

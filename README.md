@@ -1,6 +1,8 @@
 # KPI-report-SQL-SSMS-PowerBI
 An interactive business dashboard built in Power BI, using SQL (SSMS) as data source.
 
+![Sales KPI Dashboard](https://github.com/HNordholm/KPI-report-SQL-SSMS-PowerBI/blob/main/reportpreview.jpg?raw=true)
+
 # Tools 
 SSMS – 
 Power BI Desktop – 

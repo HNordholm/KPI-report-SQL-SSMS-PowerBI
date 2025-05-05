@@ -15,7 +15,7 @@ Dynamic Filters: Year & country slicers
 
 Visuals:
 
-Monthly sales and order trends 
+Monthly sales and customer trends 
 
 Sales and AOV by country
 
